@@ -1,7 +1,7 @@
 # Digitization of ICAL output data and labelling
 This code uses the output file achieved from simulation of INO-ICAL detector.The output files can be found in https://github.com/Hemalatanayak/ical_g4/tree/master/data . All the input files are digitized and then concatenated.Refer to **digitization.ipynb** to digitize and **labeling.ipynb** to concatenate and label.
 
-Digitization of data is important because it contains all the information needed for a precise measurement and easy to debug the system. For digitization, we need to know the total no. of strips and layers in a detector.
+Digitization of data is needed because Geant4 simulation gives us precise measurement of hits which is not true in case of real detector. For digitization, we need to know the total no. of strips and layers in a detector.
 
 - Generally, Dimension of a RPC = 2m x 2m
 - No. of strips in one RPC = 64
