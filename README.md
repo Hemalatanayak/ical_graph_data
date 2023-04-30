@@ -24,4 +24,6 @@ To construct the graph, refer **graph.ipynb** . In our constructed graph ;
 - Node feature = Digitized hit coordinates ( x , y, z )
 - Edge feature = Time difference( t )
 
-**Note: Few files are removed due to file size limitations in GitHub (labeled_data.csv, saved_graphs.zip)**
+**Note**: 
+- Few files are removed due to file size limitations in GitHub (labeled_data.csv, saved_graphs.zip).
+- Extra files such as min_node_6, min_node_10, ical_mu+_up and ical_mu-_up are added for further analysis i.e to make a graphdataset and perform graph classification. These are created using the same above mentioned process. 
